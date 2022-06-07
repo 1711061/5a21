@@ -4,9 +4,9 @@ basic.forever(function () {
     DigitalPin.P2,
     PingUnit.Centimeters
     )))
-    basic.showString("" + (sonar.ping(
+    basic.showNumber(sonar.ping(
     DigitalPin.P1,
     DigitalPin.P2,
     PingUnit.Centimeters
-    )))
+    ))
 })
